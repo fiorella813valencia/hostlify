@@ -8,6 +8,4 @@ public interface GuestRepository extends JpaRepository<Guest,Long> {
     Guest findByName(String name);
     Guest findByEmail(String email);
     Guest findByLastName(String lastName);
-
-
 }
