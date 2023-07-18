@@ -1,12 +1,13 @@
-package com.go2climb.go2climbapi.shared.domain.model;
+package com.example.hostlify.shared.domain.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
-import javax.persistence.*;
+
 import java.util.Date;
 
 @Getter

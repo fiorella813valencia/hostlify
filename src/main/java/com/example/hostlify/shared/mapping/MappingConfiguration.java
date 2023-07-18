@@ -1,4 +1,4 @@
-package com.go2climb.go2climbapi.shared.mapping;
+package com.example.hostlify.shared.mapping;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

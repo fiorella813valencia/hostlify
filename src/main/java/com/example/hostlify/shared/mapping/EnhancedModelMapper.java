@@ -1,4 +1,4 @@
-package com.go2climb.go2climbapi.shared.mapping;
+package com.example.hostlify.shared.mapping;
 
 import java.util.List;
 import java.util.stream.Collectors;
