@@ -55,7 +55,7 @@ public class GuestServiceImp implements GuestService{
 
     @Override
     public Guest update(Long agencyId, Guest guest) {
-        return null;
+        return guestRepository.save(guest);
     }
 
     @Override
