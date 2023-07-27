@@ -1,4 +1,4 @@
-package com.go2climb.go2climbapi.shared.exception;
+package com.example.hostlify.shared.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

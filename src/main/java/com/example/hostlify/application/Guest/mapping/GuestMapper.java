@@ -6,13 +6,16 @@ import com.example.hostlify.application.Guest.resource.GuestResource;
 import com.example.hostlify.application.Guest.resource.UpdateGuestResource;
 import com.example.hostlify.shared.mapping.EnhancedModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
 import java.util.List;
-
+@Component
+@EnableAutoConfiguration
 public class GuestMapper implements Serializable {
 
     @Autowired
