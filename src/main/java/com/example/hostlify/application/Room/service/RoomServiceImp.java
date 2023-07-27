@@ -1,13 +1,26 @@
 package com.example.hostlify.application.Room.service;
 
+import com.example.hostlify.application.Guest.domain.persistence.GuestRepository;
 import com.example.hostlify.application.Room.domain.model.Room;
+import com.example.hostlify.application.Room.domain.persistence.RoomRepository;
 import com.example.hostlify.application.Room.domain.service.RoomService;
+import jakarta.validation.Validator;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 @Service
 public class RoomServiceImp implements RoomService {
+    private static final String ENTITY = "Room";
+
+    private final RoomRepository roomRepository;
+
+    private final Validator validator;
+
+    public RoomServiceImp(RoomRepository roomRepository, Validator validator) {
+        this.roomRepository = roomRepository;
+        this.validator = validator;
+    }
     @Override
     public List<Room> getAll() {
         return null;

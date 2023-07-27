@@ -18,7 +18,7 @@ import java.util.Set;
 @Service
 public class GuestServiceImp implements GuestService{
 
-    private static final String ENTITY = "Agency";
+    private static final String ENTITY = "Guest";
 
     private final GuestRepository guestRepository;
 
