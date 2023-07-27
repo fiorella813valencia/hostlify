@@ -3,9 +3,10 @@ package com.example.hostlify.application.Room.service;
 import com.example.hostlify.application.Room.domain.model.Room;
 import com.example.hostlify.application.Room.domain.service.RoomService;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class RoomServiceImp implements RoomService {
     @Override
     public List<Room> getAll() {
